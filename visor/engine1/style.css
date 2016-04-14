@@ -7,7 +7,7 @@
 	zoom: 1; 
 	position: relative; 
 	max-width:830px;
-	margin:19px auto 17px;
+	margin:0px auto 0px;
 	z-index:90;
 	border:none;
 	text-align:left; /* reset align=center */
