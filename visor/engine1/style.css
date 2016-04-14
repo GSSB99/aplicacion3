@@ -6,9 +6,9 @@
 #wowslider-container1 { 
 	zoom: 1; 
 	position: relative; 
-	max-width:830px;
-	margin:5px 5px; 5px;
-	z-index:90;
+	max-width:700px;
+	margin:5px 5px 5px;
+	z-index:0;
 	border:none;
 	text-align:left; /* reset align=center */
 }
@@ -22,7 +22,7 @@
 	margin:0;
 	padding:0;
 	border-spacing:0;
-	overflow: visible;
+	overflow: hidden;
 	/*table-layout:fixed;*/
 }
 #wowslider-container1 .ws_images ul li{
@@ -86,7 +86,7 @@
 }
 #wowslider-container1 .ws_bullets a { 
 	width:20px;
-	height:21px;
+	height:auto;
 	background: url(./bullet.png) left top;
 	float: left; 
 	text-indent: -4000px; 
