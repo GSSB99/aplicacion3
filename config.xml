@@ -15,7 +15,7 @@ Aplicacion que muestra datos sobre el Popocatépetl
 
 <preference name="phonegap-version" value="3.1.0" />
 
-<author href="https://build.phonegap.com" email="support@phonegap.com" <!--puede ser la s de https-->
+<author href="https://build.phonegap.com" email="support@phonegap.com"> <!--puede ser la s de https-->
 García Sánchez Sara Belén
 </author>
 
@@ -25,5 +25,5 @@ García Sánchez Sara Belén
 
 <!--Colocar icono app-->
 
-<icon src="res/android/mdpi.png">
+<icon src="res/android/mdpi.png"/>
 </widget>
