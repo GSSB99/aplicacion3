@@ -7,7 +7,7 @@
 	zoom: 1; 
 	position: relative; 
 	max-width:830px;
-	margin:0px auto 0px;
+	margin:5px 5px; 5px;
 	z-index:90;
 	border:none;
 	text-align:left; /* reset align=center */
@@ -153,7 +153,7 @@
 #wowslider-container1 .ws-title{
 	position:absolute;
 	display:block;
-	bottom: 33px;
+	bottom: 0px;
 	left: 0px;
 	z-index: 50;
 	margin-right: 15px; 
