@@ -1,0 +1,337 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tercera Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+</head>
+
+<body>
+
+<div data-role="page" id="Principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Volcán Popocatépetl</h1>
+ </div>
+ <div data-role="main" class="ui-content">
+       <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:900px;height:396px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+<p>&nbsp;</p>
+      <div data-role="collapsible" data-content-theme="false">
+       <h1>¿Qué es un volcán?</h1>
+        <div>
+        <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','imagenes/monte-fuji-japon1.jpg',1)"><img src="imagenes/pp.jpg" width="623" height="348" id="Image2" align="right"/></a>Un volcán (del nombre del dios mitológico romano Vulcano) es una estructura geológica por la que emergen magma en forma de lava, ceniza volcánica y gases provenientes del interior de la Tierra. El ascenso de magma ocurre en episodios de actividad violenta denominados erupciones, que pueden variar en intensidad, duración y frecuencia, desde suaves corrientes de lava hasta explosiones extremadamente destructivas. En ocasiones, los volcanes adquieren una forma cónica por la acumulación de material de erupciones anteriores. En la cumbre se encuentra su cráter o caldera.</p>
+        <br>
+        <p>Los volcanes existen en la Tierra, en otros planetas y satélites, algunos están formados por materiales considerados fríos y se denominan criovolcanes. En ellos, el hielo actúa como roca, mientras que el agua fría líquida interna actúa como magma; esto ocurre en la luna de Júpiter llamada Europa.
+        </p>
+        <br>
+        </div>
+  <div></div>
+  </div>
+ </div> 
+ 
+ <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+       <h1>Monitores: ¿Qué es el CENAPRED?</h1>
+        <div>
+        <p><img src="imagenes/cenapred.jpg" width="auto" height="300px" align="left"> Se trata del Centro Nacional de Prevención de Desastres. Su responsabilidad principal consiste en apoyar al Sistema Nacional de Protección Civil (SINAPROC) en los requerimientos técnicos que su operación demanda. 
+</p>
+        <br>
+        <p>Realiza actividades de investigación, capacitación, instrumentación y difusión acerca de fenómenos naturales y antropogénicos que pueden originar situaciones de desastre, así como acciones para reducir y mitigar los efectos negativos de tales fenómenos, para coadyuvar a una mejor preparación de la población para enfrentarlo.</p>
+        <h3 align="center">Misión</h3>
+        <p>
+Prevenir, alertar y fomentar la cultura de autoprotección para reducir el riesgo de la población ante fenómenos naturales y antropogénicos que amenacen sus vidas, bienes y entorno a través de la investigación, monitoreo, capacitación y difusión. En ellos está la tarea del monitoreo de desastres naturales inminentes, tales como sismos y erupciones volcánicas: Ellos se encargan de vigilar la actividad volcánica.
+</p>
+        <br>
+        </div>
+  <div></div>
+  </div>
+ </div> 
+
+ <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+       <h1>Medidas de preventivas: Caída de ceniza</h1>
+        <div>
+        <h3>Indicaciones</h3>
+        <p>&nbsp;</p>
+        <ul>
+          <li>No humedecer la ceniza a fin de evitar taponamientos en el sistema de alcantarillado</li>
+          <li>Mantén la calma.<img src="imagenes/descarga.jpg" width="auto" height="200px" align="right"></li>
+          <li>Utiliza medios electrónicos y de comunicación para obtener información confiable que den las autoridades de Protección Civil sobre la caída de ceniza y atiende siempre sus instrucciones.</li>
+          <li>No realices actividades al aire libre y si es posible no salgas.</li>
+          <li>Cierra puertas y ventanas y coloca toallas o trapos húmedos en las rendijas.</li>
+          <li>Si tienes que salir cúbrete con un pañuelo o tapabocas, limpia ojos y garganta con agua pura.</li>
+          <li>Para los ojos, usa lentes protectores, especialmente si usas lentes de contacto.</li>
+          <li>Ten a la mano una linterna y pilas.</li>
+          <li>La ceniza volcánica puede ser resbaladiza, sobre todo cuando está mojada. Toma las precauciones necesarias.</li>
+          <li>Cubre tinacos, cisternas y depósitos de agua.</li>
+          <li>Barre y retira la ceniza de techos, azoteas, patios y calles, deposítalas en bolsas y no permitas que se vaya al drenaje.</li>
+          <li>Si es posible no conduzcas, si tienes que hacerlo, hazlo a baja velocidad y con las luces encendidas, ya que la ceniza dificulta la visibilidad y provoca que el pavimento se vuelva resbaloso.</li>
+          <li>Ante la caída de ceniza volcánica evita consumir alimentos en la vía pública.</li>
+          <li>Si permaneces expuesto por algún tiempo a las cenizas volcánicas, al ingresar a tu casa se recomienda cambiar de ropa.<img src="imagenes/-20150822045702-11b3a7191b09ea1522cb4a296add4d65.jpg" width="auto" height="200px" align="right"></li>
+          <li>Durante la caída de ceniza volcánica, evita que los menores realicen actividades al aire libre.</li>
+          <li>Mantén a tus mascotas en un lugar techado al igual que sus alimentos. Si tus macotas salen, cepíllalos antes de permitirles la entrada nuevamente.</li>
+          <li>La ceniza puede ser usada para parques, jardines, macetas o tierras de cultivo, ya que es rica en minerales.</li>
+          <li>No repitas ni difundas rumores. La ciudad de Puebla se encuentra a una distancia segura, no intentes salir.</li>
+          <li>Usa las vías de comunicación solo en caso de ser necesario.</li>
+        </ul>
+        </div>
+  <div></div>
+</div>
+</div>
+ 
+ <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+       <h1>Medidas de preventivas: Erupción volcánica</h1>
+              <div>
+        <h3><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','imagenes/erupcion-volcan-villarica-4.jpg',1)"><img src="imagenes/Popocatepetl-Crop.jpg" width="623" height="348" id="Image3" align="right"/></a>Semáforo de aviso oportuno</h3>
+        <p>Ante la actividad del volcán Popocatépetl, la Secretaría de Gobernación apoyada por diversas instituciones científicas desarrolló un sistema de alertamiento para determinar en qué momento la población y las autoridades de Protección Civil deberán activar las acciones correspondientes de prevención y auxilio.</p>
+        <br>
+        <p>Este documento traduce dicho sistema en el semáforo de alerta volcánica y expone su funcionamiento para lograr limitar las pérdidas de todo tipo, a través de una mayor efectividad en las acciones de Protección Civil.</p>
+        <br>
+        <p>La señaletica de color es la siguiente:</p>
+        <ul>
+        <li style="color:green">Normal</li>
+        <li style="color:yellow">Alerta</li>
+        <li style="color:red">Alarma/Erupción</li>
+        </ul>
+        <br>
+          </div>
+        <div></div>
+      <div>
+        <h3>Semáforo en verde</h3>
+        <p>El color verde indica que puedes desarrollar las actividades con normalidad
+        </p>
+        <br>
+        <ul>
+          <li>Apréndete las rutas de evacuación y dónde están los centros de reunión establecidos por las <img src="imagenes/verde.png" width="auto" height="200px" align="right">autoridades, para facilitar tu posible traslado a lugares seguros, así como el refugio temporal o albergue que te corresponde.</li>
+          <li>Asiste a los cursos de capacitación que te ofrezca la unidad de Protección Civil y sobre todo participa en los ejercicios y simulacros que se realicen en tu comunidad.</li>
+          <li>Recuerda que las construcciones en las cañadas y riberas de los ríos son más propensas a sufrir daños, ya que generalmente los flujos de materiales volcánicos tomas esos cauces.</li>
+          <li>Procura construir en las zonas más altas y que tu casa tenga techos fuerte y de preferencia inclinado</li>
+        </ul>
+        <br>
+        </div>
+  <div></div>
+  <div>
+        <h3>Semáforo en amarillo</h3>
+        <p>El color amarillo significa que tú debes estar alerta y pendiente de lo que te digan las autoridades y las noticias, y sobre todo seguir las indicaciones que te den.</p>
+        <br>
+        <ul>
+          <li>Prepara para cada miembro de tu familia, una tarjeta con su nombre y dirección.<img src="imagenes/amarillo.png" width="auto" height="200px" align="right"></li>
+          <li>Si tu vivienda tiene servicios de gas, luz y agua, asegúrate de saber como se cierran.</li>
+          <li>Si puedes guarda: agua potable y alimentos, las medicinas que estés tomando tú o alguien de tu familia, así como tus documentos más importantes, como títulos de propiedad, actas de nacimiento o matrimonio, cartillas, etc.</li>
+          <li>Procura tener a la mano un radio de pilas, linterna y las llaves de tu casa.</li>
+          <li>Cubre los depósitos de agua y alimentos para evitar que se contaminen con las cenizas que puedan caer.</li>
+          <li>Si tienes ganado o cualquier tipo de animales consulta en la unidad de Protección Civil qué debes de hacer con ellos.</li>
+        </ul>
+        <br>
+        </div>
+  <div></div>
+  <div>
+        <h3>Semáforo en rojo</h3>
+        <p>El color rojo es la señal de alarma, cuando se presente atiende las recomendaciones de las autoridades.</p>
+        <br>
+        <p>Si la instucción es evacuar:</p>
+        <br>
+        <ul>
+          <li>Conserva la calma, reúne a tu familia, pónles una identificación, cuida que puertas y ventanas queden cerradas y coloca una sábana o tela blanca hacia la calle para comprobar que se trata de un domicilio evacuado.<img src="imagenes/rojo.png" width="auto" height="200px" align="right"></li>
+          <li>Ve inmediatamente a los centros de reunión. Lleva solo lo indispensable.</li>
+          <li>Si puedes evacuar por tus propios medios, no dudes en hacerlo y dirígete al refugio temporal que te corresponde.</li>
+          <li>Al llegar al refugio temporal regístrate y ubícate en el sitio que se te indique.</li>
+          <li>Si requieres atención médica, acude a la instalación más cercana del Sistema de Salud.</li>
+          <li>En el refugio temporal colabora en lo que se te pida, mantén contacto con las autoridades, ellas te indicarán las reglas a seguir durante tu estancia. Asimismo te informarán sobre la evolución de la emergencia, hasta que esta termine.</li>
+          <li>Si no puedes localizar el centro de reunión o no se presenta el medio de transporte para evacuarte, aléjate del volcán caminando por las partes altas hasta un lugar seguro.</li>
+        </ul>
+        <br>
+        </div>
+  <div></div>
+  <div>
+        <h3>Cuando todo termina...</h3>
+        <p><img src="imagenes/150406153720_volcano_624x351_afp.jpg" width="auto" height="300px" align="left">Solo las autoridades pueden decirte cuándo será seguro regresar a tu vivienda.        </p>
+        <p>Antes de entrar a tu casa verifica las condiciones en que se encuentra, en caso de que tengas dudas consulta con los Cuerpos de Emergencia, si el techo tiene ceniza, quítala de inmediato cuidando que no se vaya al drenaje.</p>
+        <br>
+        <p>No uses la electricidad ni el gas hasta estar seguro de que las instalaciones estén limpias de ceniza y en buen estado. No comas o bebas nada que sospeches que está contaminado, si tienes dudas consulta a las autoridades correspondientes.</p>
+        <br>
+        <p>Manténte alerta al color del semáforo y sigue las recomendaciones del comité local de Protección Civil. Realiza junto con la familia tus actividades cotidianas.
+</p>
+        <br>
+        </div>
+  <div></div>
+</div>
+</div>
+ 
+  <div>
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>Popocatépetl</h2>
+          <p>El cerro que humea</p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>Monte Fuji</h2>
+          <p>El volcán mas importante de Japón</p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>Monte Vesubio</h2>
+          <p>Una ciudad cubierta en cenizas</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+  <div data-role="footer" align="center" data-theme="a">
+    <div>
+      <img src="imagenes/persona_rosa.png" width="46" height="46">
+    </div>
+    <div>
+      <h4><strong>Aplicación tres</strong></h4>
+      <h4>García Sánchez Sara Belén</h4>
+    </div>
+   </div>
+  </div>
+  
+    <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Volcán Popocatépetl</h1>
+    
+    </div>
+    <div data-role="content" align="justify">
+      <div>
+        <h2 align="center">"Don Goyo"</h2>
+        <p><img src="imagenes/screen-shot-2015-07-11-at-10-24-55-am.jpeg" width="200px" height="auto" align="right">Por su origen náhuatl su nombre significa “montaña que humea”, por su altura es el pico más alto de México después del Pico de Orizaba, y por su cercanía con varias poblaciones humanas se le considera uno de los volcanes más peligrosos del mundo. También se le conoce  como “Don Goyo” o simplemente como “Popo”.</p>
+        <br>
+        <p>Se trata de un estratovolcán o volcán compuesto. Se le describe como un volcán activo, de hecho, el más activo de México. Descansa al sur de la Ciudad de México <b>sobre los estados de Puebla, Morelos y México</b>, en una provincia fisiográfica nombrada Eje Neovolcánico o Eje Volcánico Transversal, que es una cadena de volcanes que incluye al Iztaccíhuatl, al Paricutín y al Nevado de Toluca, entre otros</p>
+        <br>
+        <p>En cuanto a mitología, según la leyenda colonial el Popocatépetl fue un guerrero legendario llamado Popoca que al regresar victorioso del campo de batalla se encuentra con la inesperada muerte de su princesa amada, tras lo cual sube al pináculo del templo con ella en sus brazos y se entregan a sí mismos como ofrendas a los dioses. El nombre náhuatl o prehispánico que recibe el popacatepetl es el xalitlehua.</p>
+      <h2 align="center">Descripción física</h2>
+      <p><img src="imagenes/981d4be5e91dda12f7aea78e2e478624.jpg" align="left" width="200px" height="auto">Se localiza a unos 72 km al sureste de la Ciudad de México, 43 km de Puebla, 63 km de Cuernavaca, y 53 km de Tlaxcala. De apariencia casi simétrica, cubre una superficie de 283,192.53 hectáreas y tiene una altura de 5,426 metros sobre el nivel del mar. Posee un cráter elíptico de paredes empinadas con una profundidad de 150 metros desde el labio inferior, un diámetro mayor de 900 metros y un ancho total de 400 x 600 metros. Es un estratovolcán, y los estudios paleomagnéticos que se han hecho de él indican que tiene una edad aproximada de 730 000 años.</p>
+      <br>
+      <p>Está unido por la parte norte con el Iztaccíhuatl mediante un paso montañoso conocido como Paso de Cortés. El volcán tiene glaciares perennes cerca de la boca del cono, en la punta de la montaña. Es el segundo volcán más alto de México, con una altitud máxima de 5,426 metros sobre el nivel del mar, sólo después del Citlaltépetlde 5610 msnm.<img  src="imagenes/popocatepetl_8.jpg" align="right" width="200px" height="auto"></p>
+      <br>
+      <p>El Popocatépetl ha estado desde siempre en actividad, a pesar de haber estado en reposo durante buena parte de la segunda mitad del siglo XX. En 1991 se inició un incremento en su actividad y a partir de 1993 las fumarolas eran ya claramente visibles desde distancias de alrededor de 50 kilómetros.
+</p>
+      <h2 align="center">Erupciones</h2>
+      <p><img src="imagenes/erupcion_volcan_chile.jpg" width="200px" height="auto" align="left">Es un estratovolcán andesitico-dacítico. A partir de mediados del Holoceno se han producido 3 grandes erupciones plinianas; la última ocurrió en 800 d. C. Se estima que ha estado activo durante más de medio millón de años, y su historial de erupciones es bastante amplio.</p>
+      <br>
+      <p>La erupción volcánica más antigua que se ha confirmado del Popocatépetl tuvo lugar en el 7150 a. C. En total, existen 41 erupciones confirmadas a lo largo de la historia, y hay 5 aún inciertas. Por otro lado, se ha registrado más de 15 grandes erupciones a partir de la llegada de los españoles a tierras mexicanas.</p>
+      <br>
+      <p>Muchos eventos fueron documentados por los aztecas en sus códices, como el que sucedió en el año 1509 d. C, el cual fue plasmado en los códices Telleriano-Remensis y Vaticano. En 1519 dio inicio una actividad fumarólica que culminó en 1530. Entre 1539 y 1549 se produjeron erupciones explosivas moderadas que liberaron piedra pómez del interior de la tierra.</p>
+      <br>
+      <p><img src="imagenes/erupcion-volcan-villarica-4.jpg" width="200px" height="auto" align="right">Durante el siglo XX ocurrieron algunas erupciones de moderadas a intensas, de estas últimas, la más recordada es la de 1947. En 1994, los gases y cenizas exhalados obligaron a los pobladores cercanos a evacuar sus hogares para ponerse a salvo. Esto es un punto esencial para las más de 25 millones de personas que viven a menos de 100 kilómetros del cráter, y principalmente, para las cerca de 325 establecidas a 5 kilómetros.</p>
+      <br>
+      <p>En el 2000, el volcán hizo su erupción más grande en 1,200 años. En los días 18 y 19 de diciembre de ese año, arrojó grandes cantidades de material incandescente, en 3 episodios, y el 24 de ese mes arrojó fragmentos a unos 2.5 kilómetros y produjo una columna de ceniza de unos 5 kilómetros de altura.
+Don Goyo continúa tan activo como siempre, y de vez en cuando realiza exhalaciones y explosiones de intensidad moderada.</p>
+      </div>
+    </div>
+  <div data-role="footer" data-theme="a">
+      <h4>Aplicación tres, García Sánchez Sara Belén</h4>
+    </div>
+   </div>
+  </div>
+  
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Monte Fuji</h1>
+    </div>
+    <div data-role="content" align="justify">
+      <div>
+        <h2 align="center">El monte Fujiyama</h2>
+        <p><img src="imagenes/monte-fujiyama-japao-portada.jpg" width="200px" height="auto" align="right">El monte Fuji (富士山 Fuji-san), con 3.776 metros de altitud, es el pico más alto de la isla de Honshu y de todo Japón. Se encuentra entre las prefecturas de Shizuoka y Yamanashien el Japón central y justo al oeste de Tokio, desde donde se puede observar en un día despejado. El Fuji es un volcán compuesto y es el símbolo de Japón. Considerado sagrado desde la Antigüedad, les estaba prohibido a las mujeres llegar a la cima hasta la era Meiji (finales del s. XIX). Actualmente es un conocido destino turístico, así como un destino popular para practicar el alpinismo. La temporada “oficial” para practicar el alpinismo dura desde principios de julio hasta finales de agosto. Son mayoría los que escalan por la noche para apreciar la salida del sol.</p>
+        <br>
+        <p><img src="imagenes/Fuji.aves_.jpg" width="200px" height="auto" align="left">El monte Fuji es un atractivo cono volcánico y es un tema recurrente en el arte japonés. El trabajo con mayor renombre es la obra maestra 36 vistas del monte Fuji del pintor ukiyo-e Katsushika Hokusai. También aparece en la literatura japonesa y es el tema de muchos poemas. Se clasifica al monte Fuji como un volcán activo, pero con poco riesgo de erupción. La última erupción registrada data de 1707 durante el periodo Edo. Entonces, se formó un nuevo cráter, así como un segundo pico (llamado Hoeizan por el nombre de la era).</p>
+        <br>
+        <p>Después del surgimiento de los samuráis en el Japón feudal (siglos XII a XVI), se empezaron a emplear los caracteres kanji actuales para "Fuji". Fu (富) significa riqueza, mientras que ji (士) es "samurái". Finalmente, san (山) significa montaña, por lo que el nombre completo es Fujisan. Aunque popularmente en países de habla castellana se le conoce como "Fujiyama", este nombre es incorrecto, debido a que la lectura del kanji 山 como "yama" (y no como "san") es incorrecta cuando este forma otra palabra junto a otro kanji (pronunciación onyomi). </p>
+        <br>
+        <p>Los japoneses suelen recordar la altura de esta montaña, 3.776 metros, como "MINANARO": "MI" por "3" (三), "NANA" por "7" (七), "RO" por "6" (六) (véase: numeración japonesa), y se enseña a entender como tomar como ejemplo al monte Fuji, y ser tan alto como Él (en lo espiritual).
+</p>
+      <h2 align="center">Descripción física</h2>
+      <p><img src="imagenes/fuji.jpg" align="right" width="200px" height="auto">El monte Fuji se encuentra en el centro del Japón, en la isla principal, Honshu, rodeado por los Alpes Japoneses al noroeste y por el océano Pacífico al sudeste. Administrativamente, se extiende por las prefecturas de Shizuoka al sur yYamanashi al norte. La cumbre se encuentra a 3.776 metros de altura, por lo que es el punto más alto de Japón y en ciertos días se puede ver Tokio situado a 100 kilómetros al nordeste.</p>
+        <br>
+        <p>Está rodeado por los cinco lagos Fujigoko: el lago Motosu, el lago de Shoji, el lago Sai, el lago Kawaguchi y el lago Yamanaka. Estos lagos, así como el lago Ashiofrecen una vista excepcional del volcán. A sus pies se encuentra el bosque Aokigahara y ciudades como Gotenba en el este, Fujiyoshida al norte y Fujinomiyaal suroeste conectado con el resto de la megalópolis de Tokio que se encuentra al nordeste por una densa red de comunicación que consisten en carreteras y una pequeña parte en trenes bala shinkansen.</p>
+        <br>
+        <p>La topografía del monte Fuji está dictada por el actividad volcánica de la cual ha nacido: la forma de cono casi simétrico de treinta kilómetros a su base, sus vertientes empinadas y buena cantidad de los 3.776 metro de altitud, dando un volumen de 870 km3 de este estratovolcán. Está coronado por un cráter de 500 a 700 metros, de diámetro y una profundidad de entre 100 y 250 metros. El único defecto real de las pendientes está formado por el cráter Hōei-zan que se encuentra a unos 2.300 metros sobre el nivel del mar.</p>
+      <h2 align="center">Erupciones</h2>
+      <p><img src="imagenes/lenticular nube.jpg" width="200px" height="auto" align="left">Ha habido cuatro erupciones explosivas que se produjeron durante el periodo Jomon, hace aproximadamente 3000 años, conocidas bajo los nombres: Sengoku (Sg), Ōsawa scoria (Hueso), Ōmuro scoria (Olmo) y Sunazawa scoria (Zn). Cómo el viento sopla generalmente del oeste, en la región del monte Fuji, la mayoría de las tefras expulsadas cayeron en el este pero, en el caso del Ōsawa scoria, fueron llevadas por un viento del este hacia los alrededores de Hamamatsu.</p>
+        <br>
+        <p>Hace aproximadamente 2.300 años, la vertiente oriental del volcán se derrumbó y un lahar bajó hacia la región deGotenba hasta el valle de Ashigara al este y la bahía de Suruga a través de la ciudad de Mishima al sur. Este incidente es conocido en la actualidad como la corriente de lava de Gotenba (御殿場泥流, Gotemba deiryū).
+
+</p>
+      </div>
+    </div>
+  <div data-role="footer" data-theme="a">
+      <h4>Aplicación tres, García Sánchez Sara Belén</h4>
+    </div>
+   </div>
+  </div>
+  
+  <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Monte Vesubio</h1>
+    </div>
+    <div data-role="content" align="justify">
+      <div>
+        <h2 align="center">El Vesubio</h2>
+        <p><img src="imagenes/vesubio.jpg" width="200px" height="auto" align="left">El monte Vesubio (italiano: Monte Vesuvio; latín: Mons Vesuvius) es un volcán activo del tipo vesubiano situado frente a la bahía de Nápoles y a unos nueve kilómetros de distancia de la ciudad de Nápoles. Se encuentra en la provincia de Nápoles, perteneciente a la región italiana de la Campania. Tiene una altura máxima de 1.281 msnm y se alza al sur de la cadena principal de los Apeninos.</p>
+<br>
+<p>Es famoso por su erupción del 24 de agosto del año 79 d. C., en la que fueron sepultadas las ciudades de Pompeya y Herculano. Tras aquel episodio, el volcán ha entrado en erupción en numerosas ocasiones. Está considerado como uno de los volcanes más peligrosos del mundo, ya que en sus alrededores viven unos tres millones de personas y sus erupciones han sido violentas; se trata de la zona volcánica más densamente poblada del mundo. Es el único volcán situado en la parte continental de Europaque ha sufrido una erupción en el siglo XX. Los otros dos volcanes italianos que han entrado en erupción en las últimas centurias se encuentran en islas: el Etna en Sicilia y el Estrómboli en las islas Eolias. La última erupción del Vesubio tuvo lugar en 1944, destruyendo buena parte de la ciudad de San Sebastiano.</p>
+<br>
+<p>Los griegos y los romanos consideraban que se trataba de un lugar sagrado dedicado al héroe y semidiós Heracles/Hércules, del cual tomó el nombre la ciudad de Herculano, situado en la base del monte. El Vesubio fue designado como uno de los 16 Volcanes de la Década, es decir, como uno de los volcanes más peligrosos del mundo.
+</p>
+      <h2 align="center">Descripción física</h2>
+      <p><img src="imagenes/article-2257624-16C3413E000005DC-31_636x515.jpg" align="right" width="200px" height="auto">La caldera comenzó a formarse durante una erupción hace unos 17.000 años (o 18.300), ampliada por antiguas y violentas erupciones concluyendo con la del 79. Esta estructura ha tomado su nombre del término "volcán somma", el cual describe al volcán con una cumbre en caldera rodeada de un cono reciente.</p>
+<br>
+<p>La altura del cono principal ha cambiado constantemente por las erupciones, pero en el presente es de 1281 msnm. El monte Somma tiene 1149 msnm de alto, y está separado del cono principal por el valle de Atrio di Cavallo, de unos 5 km de extensión. Las laderas de la montaña están marcadas por los flujos de lava, con mucha vegetación, con matorrales en cotas altas y viñedos en las bajas. El Vesubio es un volcán activo, aunque su actividad corriente produzca más que nada vapor emanado desde las grietas al pie del cráter.</p>
+<br>
+<p>El Vesubio es un volcán compuesto, sito en el límite convergente donde la placa africana empieza a ser subducida debajo de la placa euroasiática. Su lava está compuesta de viscosa andesita. Capas de lava, escorias, cenizas, y piedra pómez componen la montaña. En las laderas hay dos domos de lava, surgidos en 1891 y 1895.</p>
+      <h2 align="center">Erupciones</h2>
+      <p><img src="imagenes/Beaut_s de Pomp__ - Tutt'Art@ _.jpg" width="200px" height="auto" align="left">Es famoso por la erupción que en el año 79 sepultó a las ciudades romanas de Pompeya y Herculano, permitiendo conservarlas intactas hasta que se redescubrieron en el siglo XVI, aunque las excavaciones sistemáticas comenzaron en 1738 y 1748, respectivamente. Hoy ambas ciudades son emplazamientos arqueológicos que permiten investigar la cultura romana y la vida de unas ciudades que han permanecido sin alteraciones desde la Edad Antigua. La erupción del año 79 supone, asimismo, la primera descripción histórica de una erupción vesubiana, realizada por Plinio el Joven, poco después de que sucediera. Debido a esto, los volcanes vesubianos son también conocidos como plinianos, y así también, por extensión, ese tipo de erupciones. Ha entrado en erupción muchas veces y hoy es considerado como uno de los volcanes más peligrosos del mundo, por la población de 3.000.000 de personas que viven en sus inmediaciones y la tendencia del Vesubio a tener erupciones explosivas.</p>
+      <br>
+      <p><img src="imagenes/pompeii_the_last_day_1.jpg" width="200px" height="auto" align="right">Otras erupciones importantes son, secuencialmente, las del 472, 512, en 1631, seis veces en el siglo XVIII, ocho veces en el siglo XIX (notable la de 1872), y en 1906,1929, y 1944. No ha habido erupciones desde 1944. Las erupciones variaron en gran medida en la gravedad, y se caracterizaron por explosivos estallidos. En ocasiones, las erupciones han sido tan grandes que la totalidad de la Europa meridional ha sido cubierta por cenizas; en 472 y en 1631, las cenizas del Vesubio cayeron sobre Constantinopla(Estambul), cubriendo una extensión aproximada de unos 1.600 km. Desde 1944, los desprendimientos de tierras del cráter han levantado nubes de polvo y ceniza, las cuales han provocado falsas alarmas de erupciones.
+</p>
+      </div>
+    </div>
+  <div data-role="footer" data-theme="a">
+      <h4>Aplicación tres, García Sánchez Sara Belén</h4>
+    </div>
+   </div>
+  </div>
+  
+</body>
+</html>
